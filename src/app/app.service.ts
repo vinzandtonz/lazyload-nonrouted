@@ -30,7 +30,7 @@ export class AppService {
   changeDataModel(dataModel) {
     const newDataModel = {
       ...dataModel,
-      documentName: "Change document name"
+      documentName: "Changed document name"
     };
     return newDataModel;
   }

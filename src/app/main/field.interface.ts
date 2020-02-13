@@ -9,6 +9,6 @@ export interface IDataModel {
 export interface IConfigItem {
   label: string;
   type: string;
-  enable?: string;
+  enable?: string | boolean;
   dataModelRef: string;
 }
