@@ -1,0 +1,12 @@
+<div
+  [attr.disabled]="!config.enable ? 'disabled' : undefined"
+  class="textfield-container"
+>
+  <label for="textboxInput">{{ config.label }}</label> :
+  <input
+    type="text"
+    id="textboxInput"
+    name="textboxInput"
+    [value]="config?.dataModelRef"
+  />
+</div>

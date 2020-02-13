@@ -1,0 +1,12 @@
+<div
+  [attr.disabled]="!config?.enable ? 'disabled' : undefined"
+  class="checkbox-container"
+>
+  <input
+    type="checkbox"
+    id="checkboxInput"
+    name="checkboxInput"
+    [checked]="config?.dataModelRef"
+  />
+  <label for="checkboxInput">{{ config?.label }}</label>
+</div>
